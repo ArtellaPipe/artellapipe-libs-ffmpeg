@@ -1,0 +1,10 @@
+artellapipe.libs.ffmpeg package
+===============================
+
+Module contents
+---------------
+
+.. automodule:: artellapipe.libs.ffmpeg
+   :members:
+   :undoc-members:
+   :show-inheritance:
