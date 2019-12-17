@@ -1,0 +1,13 @@
+# ===================================================================
+# artellapipe-libs-artella requirements file
+# ===================================================================
+Qt.py
+pytest
+pytest-cov
+coveralls
+sphinx
+sphinx_rtd_theme
+ffmpeg-python
+tpPyUtils
+tpDccLib
+tpQtLib
