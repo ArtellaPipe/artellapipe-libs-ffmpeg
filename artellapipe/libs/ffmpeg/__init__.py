@@ -26,8 +26,3 @@ def get_ffmpeg_executable():
         return None
 
     return ffmpeg_exe_path
-
-
-
-
-
