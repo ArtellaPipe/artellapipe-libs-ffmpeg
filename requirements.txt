@@ -8,6 +8,7 @@ coveralls
 sphinx
 sphinx_rtd_theme
 ffmpeg-python
-tpPyUtils
-tpDccLib
-tpQtLib
+tpDcc-libs-python
+tpDcc-core
+tpDcc-libs-qt
+Fileseq
