@@ -129,6 +129,7 @@ def draw_timestamp_on_video(
 
     return draw_text
 
+
 def create_video_from_sequence_file(
         file_in_sequence, output_file, sequence_number_padding=2, framerate=24,
         video_codec='libx264', run_stream=True):
@@ -194,6 +195,7 @@ def run_multiples_outputs_at_once(outputs_to_run, max_operations=15):
         except Exception as exc:
             for opt_to_run in operations_to_run:
                 launch_stream(opt_to_run)
+
 
 def scale_video(video_file, new_width=None, new_height=None):
     if new_width is None and new_height is None:
