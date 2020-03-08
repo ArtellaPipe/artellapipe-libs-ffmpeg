@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>artellapipe.libs.ffmpeg.core.ffmpeglib module &mdash; artellapipe 0.0.l documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="artellapipe.libs.ffmpeg.core package" href="artellapipe.libs.ffmpeg.core.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> artellapipe
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">artellapipe</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="artellapipe.html">artellapipe package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="artellapipe.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="artellapipe.libs.html">artellapipe.libs package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="artellapipe.html#module-artellapipe">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">artellapipe</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">artellapipe</a> &raquo;</li>
+        
+          <li><a href="artellapipe.html">artellapipe package</a> &raquo;</li>
+        
+          <li><a href="artellapipe.libs.html">artellapipe.libs package</a> &raquo;</li>
+        
+          <li><a href="artellapipe.libs.ffmpeg.html">artellapipe.libs.ffmpeg package</a> &raquo;</li>
+        
+          <li><a href="artellapipe.libs.ffmpeg.core.html">artellapipe.libs.ffmpeg.core package</a> &raquo;</li>
+        
+      <li>artellapipe.libs.ffmpeg.core.ffmpeglib module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/artellapipe.libs.ffmpeg.core.ffmpeglib.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-artellapipe.libs.ffmpeg.core.ffmpeglib">
+<span id="artellapipe-libs-ffmpeg-core-ffmpeglib-module"></span><h1>artellapipe.libs.ffmpeg.core.ffmpeglib module<a class="headerlink" href="#module-artellapipe.libs.ffmpeg.core.ffmpeglib" title="Permalink to this headline">¶</a></h1>
+<p>Utility module that contains useful utilities and classes related with FFMpeg</p>
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.create_video_from_list_of_files">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">create_video_from_list_of_files</code><span class="sig-paren">(</span><em class="sig-param">list_of_files</em>, <em class="sig-param">output_file</em>, <em class="sig-param">framerate=24</em>, <em class="sig-param">video_codec='libx264'</em>, <em class="sig-param">run_stream=True</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.create_video_from_list_of_files" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.create_video_from_sequence_file">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">create_video_from_sequence_file</code><span class="sig-paren">(</span><em class="sig-param">file_in_sequence</em>, <em class="sig-param">output_file</em>, <em class="sig-param">sequence_number_padding=2</em>, <em class="sig-param">framerate=24</em>, <em class="sig-param">video_codec='libx264'</em>, <em class="sig-param">run_stream=True</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.create_video_from_sequence_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.draw_text">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">draw_text</code><span class="sig-paren">(</span><em class="sig-param">input_file</em>, <em class="sig-param">text</em>, <em class="sig-param">x=0</em>, <em class="sig-param">y=0</em>, <em class="sig-param">font_color=None</em>, <em class="sig-param">font_file=None</em>, <em class="sig-param">font_size=16</em>, <em class="sig-param">escape_text=False</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.draw_text" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.draw_timestamp_on_video">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">draw_timestamp_on_video</code><span class="sig-paren">(</span><em class="sig-param">video_file</em>, <em class="sig-param">text=None</em>, <em class="sig-param">x=0</em>, <em class="sig-param">y=0</em>, <em class="sig-param">font_color=None</em>, <em class="sig-param">font_file=None</em>, <em class="sig-param">font_size=16</em>, <em class="sig-param">escape_text=False</em>, <em class="sig-param">timecode='00:00:00:00'</em>, <em class="sig-param">timecode_rate=24</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.draw_timestamp_on_video" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.get_file_input">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">get_file_input</code><span class="sig-paren">(</span><em class="sig-param">input_file</em>, <em class="sig-param">check_file_path=True</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.get_file_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns FFMpeg input of the given file
+:param input_file: str or ffmpeg.nodes.FilterableStream
+:return:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.launch_stream">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">launch_stream</code><span class="sig-paren">(</span><em class="sig-param">ffmpeg_stream</em>, <em class="sig-param">overwrite=True</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.launch_stream" title="Permalink to this definition">¶</a></dt>
+<dd><p>Executes all the FFMpeg operations of the given FFMpeg stream
+:param ffmpeg_stream: ffmpeg.nodes.Stream
+:param overwrite: bool</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.overlay_inputs">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">overlay_inputs</code><span class="sig-paren">(</span><em class="sig-param">input_1</em>, <em class="sig-param">input_2</em>, <em class="sig-param">x=0</em>, <em class="sig-param">y=0</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.overlay_inputs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function that overlays input_1 on top of input_2
+:param input_1: str or ffmpeg.nodes.FilterableStream
+:param input_2: str or ffmpeg.nodes.FilterableStream
+:param x: int
+:param y: int
+:return: ffmpeg.nodes.FilterableStream</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.run_multiples_outputs_at_once">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">run_multiples_outputs_at_once</code><span class="sig-paren">(</span><em class="sig-param">outputs_to_run</em>, <em class="sig-param">max_operations=15</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.run_multiples_outputs_at_once" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run all the given outputs at once
+:param outputs_to_run: list
+:param max_operations: int
+:return:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.save_to_file">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">save_to_file</code><span class="sig-paren">(</span><em class="sig-param">ffmpeg_stream</em>, <em class="sig-param">output_path</em>, <em class="sig-param">run_stream=False</em>, <em class="sig-param">overwrite=True</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.save_to_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stores given FFMpeg stream object into given output path
+:param ffmpeg_stream: ffmpeg.nodes.Stream
+:param output_path: str
+:param run_stream: bool
+:param overwrite: bool</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="artellapipe.libs.ffmpeg.core.ffmpeglib.scale_video">
+<code class="sig-prename descclassname">artellapipe.libs.ffmpeg.core.ffmpeglib.</code><code class="sig-name descname">scale_video</code><span class="sig-paren">(</span><em class="sig-param">video_file</em>, <em class="sig-param">new_width=None</em>, <em class="sig-param">new_height=None</em><span class="sig-paren">)</span><a class="headerlink" href="#artellapipe.libs.ffmpeg.core.ffmpeglib.scale_video" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+    <a href="https://github.com/ArtellaPipe/artellapipe-core" target="_blank">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+    </a>
+
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="artellapipe.libs.ffmpeg.core.html" class="btn btn-neutral float-left" title="artellapipe.libs.ffmpeg.core package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Tomas Poveda
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

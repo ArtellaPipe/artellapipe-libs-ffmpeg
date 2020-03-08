@@ -1,6 +1,13 @@
 artellapipe.libs.ffmpeg package
 ===============================
 
+Subpackages
+-----------
+
+.. toctree::
+
+   artellapipe.libs.ffmpeg.core
+
 Module contents
 ---------------
 

@@ -1,0 +1,17 @@
+artellapipe.libs.ffmpeg.core package
+====================================
+
+Submodules
+----------
+
+.. toctree::
+
+   artellapipe.libs.ffmpeg.core.ffmpeglib
+
+Module contents
+---------------
+
+.. automodule:: artellapipe.libs.ffmpeg.core
+   :members:
+   :undoc-members:
+   :show-inheritance:
