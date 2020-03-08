@@ -1,3 +1,12 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+Initialization module for artellapipe-libs-ffmpeg
+"""
+
+from __future__ import print_function, division, absolute_import
+
 import os
 import logging
 
@@ -10,7 +19,7 @@ def get_ffmpeg_executable():
     :return: str
     """
 
-    from tpPyUtils import path, osplatform
+    from tpDcc.libs.python import path, osplatform
 
     externals_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'externals', 'exe')
     if not externals_dir or not os.path.isdir(externals_dir):
