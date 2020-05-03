@@ -19,7 +19,7 @@ import logging
 import ffmpeg
 from ffmpeg import nodes
 
-from tpDcc.libs.python import python
+from tpDcc.libs.python import python, path as path_utils
 
 from artellapipe.libs import ffmpeg as ffmpeg_lib
 
@@ -136,10 +136,10 @@ def create_video_from_sequence_file(
     if not file_in_sequence or not os.path.isfile(file_in_sequence):
         return None
 
-    sequence = fileseq.findSequenceOnDisk(file_in_sequence)
+    sequence = fileseq.FileSequence(file_in_sequence)
     frame_fill = str(sequence.zfill()).zfill(sequence_number_padding)
     frame_file = sequence.frame("#")
-    frame_file = frame_file.replace('.#.', '.%{}d.'.format(frame_fill))
+    frame_file = path_utils.clean_path(frame_file.replace('.#.', '.%{}d.'.format(frame_fill)))
 
     sequence_input = get_file_input(
         frame_file, check_file_path=False, start_number=sequence.start(), framerate=framerate)
@@ -206,4 +206,6 @@ def scale_video(video_file, new_width=None, new_height=None):
     if not video_input:
         return False
 
-    raise NotImplementedError()
+    scale = ffmpeg.filter(video_input, 'scale', width=new_width, height=new_height)
+
+    return scale
