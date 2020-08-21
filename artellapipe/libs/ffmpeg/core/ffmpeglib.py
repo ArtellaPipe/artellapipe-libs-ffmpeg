@@ -23,7 +23,7 @@ from tpDcc.libs.python import python, path as path_utils
 
 from artellapipe.libs import ffmpeg as ffmpeg_lib
 
-LOGGER = logging.getLogger()
+LOGGER = logging.getLogger('artellapipe-libs-ffmpeg')
 
 
 def launch_stream(ffmpeg_stream, overwrite=True):
