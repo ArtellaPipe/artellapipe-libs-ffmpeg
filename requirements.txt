@@ -1,14 +1,8 @@
 # ===================================================================
 # artellapipe-libs-artella requirements file
 # ===================================================================
-Qt.py
-pytest
-pytest-cov
-coveralls
-sphinx
-sphinx_rtd_theme
-ffmpeg-python
+ffmpeg-python==0.2.0
+FileSeq==1.10.0
 tpDcc-libs-python
 tpDcc-core
 tpDcc-libs-qt
-Fileseq
